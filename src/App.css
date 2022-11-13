@@ -6,8 +6,12 @@ main {
   padding: 36px;
 }
 
-bold {
+b {
   font-weight: 600;
+}
+
+.error {
+  color: red;
 }
 
 .header {
@@ -54,6 +58,10 @@ bold {
   border: none;
   cursor: pointer;
   padding: 10px;
+}
+
+button:disabled {
+  background: grey;
 }
 
 .commit {
