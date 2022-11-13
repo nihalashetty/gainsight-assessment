@@ -6,6 +6,10 @@ main {
   padding: 36px;
 }
 
+bold {
+  font-weight: 600;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -50,4 +54,23 @@ main {
   border: none;
   cursor: pointer;
   padding: 10px;
+}
+
+.commit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.commit-info {
+  margin: 20px;
+  margin-right: auto;
+  text-align: initial;
+}
+
+.commit-link {
+  margin: 20px;
 }
