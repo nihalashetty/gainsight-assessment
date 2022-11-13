@@ -15,7 +15,6 @@ export default function GitCommits() {
             getCommits();
         }
 
-        <em>// eslint-disable-next-line react-hooks/exhaustive-deps</em>
     }, []);
 
     //Set Key to localstorage on change
@@ -43,7 +42,6 @@ export default function GitCommits() {
             clearInterval(interval);
         }
 
-        <em>// eslint-disable-next-line react-hooks/exhaustive-deps</em>
         return () => {
             clearInterval(interval);
         };
