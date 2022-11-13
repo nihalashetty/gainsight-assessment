@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './components/Header'
+import GitCommits from './components/GitCommits';
 
 function App() {
   return (
     <div className="App">
-      <h1>Simple Site</h1>
+      <Header />
+      <GitCommits />
     </div>
   );
 }
